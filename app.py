@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 import requests
+import os
 from requests.auth import HTTPBasicAuth
 
 app = Flask(__name__)
